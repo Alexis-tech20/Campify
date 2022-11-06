@@ -23,7 +23,7 @@ y= (screen_height / 2) - (app_height / 2)
 window.geometry(f'{app_width}x{app_height}+{int(x)}+{int(y)}')
 
 
-img = ImageTk.PhotoImage(Image.open("Python\\Camping Project\\CampImages\\WindowBackground.png"))
+img = ImageTk.PhotoImage(Image.open(os.path.join("Python","CampingProject","CampImages","WindowBackground.png")))
 my_label = Label(image=img)
 my_label.img = img  # Save reference to image.
 my_label.pack()
