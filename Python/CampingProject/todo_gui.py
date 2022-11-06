@@ -28,9 +28,6 @@ def toDoList(window):
 
 
     canvas = Canvas(thirdWindow, width = 300, height = 300)      
-          
-    img = PhotoImage(file="C:\\Users\\alexi\\OneDrive\\Desktop\\Camping Images\\Camping Logo.png")      
-    canvas.create_image(120,120, anchor=NW, image=img)
 
     #thirdWindow['bg']='green'
 
